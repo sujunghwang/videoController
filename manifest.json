@@ -1,0 +1,13 @@
+{
+  "name": "VideoControl",
+  "description": "video control chrome extensions.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://file.notion.so/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
